@@ -1,4 +1,7 @@
-module.exports = function(eleventyConfig) {
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   return {
     pathPrefix: "/blog/",
   };
