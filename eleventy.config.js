@@ -6,6 +6,6 @@ module.exports = function (eleventyConfig) {
     "./water.min.css": "/water.min.css"
 });
   return {
-    pathPrefix: "/blog/",
+    pathPrefix: "/blog-test/",
   };
 };
